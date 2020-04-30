@@ -32,6 +32,8 @@ En el esquema siguiente se proporciona información general del sistema de tipos
     - Tipos definidos por el usuario con el formato `struct S {...}`
   - [Tipos de valores que aceptan valores NULL][NullableTypes]
     - Extensiones de todos los demás tipos de valor con un valor `null`
+  - [Tuplas de valores][TupleTypes]
+    - Tipos definidos por el usuario con el formato `(T1, T2, ...)`
 - [Tipos de referencia][ReferenceTypes]
   - [Tipos de clase][ClassTypes]
     - Clase base definitiva de todos los demás tipos: `object`
@@ -49,6 +51,7 @@ En el esquema siguiente se proporciona información general del sistema de tipos
 [EnumTypes]: ../language-reference/builtin-types/enum.md
 [StructTypes]: ../language-reference/builtin-types/struct.md
 [NullableTypes]: ../language-reference/builtin-types/nullable-value-types.md
+[TupleTypes]: ../tuples.md
 [ReferenceTypes]: ../language-reference/keywords/reference-types.md
 [ClassTypes]: ../language-reference/keywords/class.md
 [InterfaceTypes]: ../language-reference/keywords/interface.md
